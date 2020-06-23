@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensajitos</title>
+</head>
+<body>
+    <h1>APLICACION DE MENSAJERIA</h1>
+
+    <div id = "conteiner">
+        <div id = "chat">
+            <div id = "output"></div>
+            <div id = "action"></div>
+        </div>
+        <div>
+            <input type="text" id = "usuario" placeholder="usuario">
+            <input type="text" id = "mensaje" placeholder="mensaje">
+            <button id = "enviar">Enviar</button>
+        </div>
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="cliente.js"></script>
+</body>
+</html>
